@@ -40,12 +40,19 @@ const options = {
     
 };
 
+
+// Now we send our request! 
 fetch(url, options)
+
+    // Fetch is promised based -- the promise is not fulfilled yet...
     .then(response => response.json())
+
+    // Now the promise is fulfilled! Let's take a look at the response! 
     .then(json => {
         console.log(json);
-    
     })
+
+    // Best practice to do error catching! 
     .catch(console.error);
 
 
