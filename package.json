@@ -1,0 +1,23 @@
+{
+  "name": "graphql-workshop",
+  "version": "1.0.0",
+  "description": "A simple node.js example for consuming the [PeterPortal GraphQL API](http://api.peterportal.org/docs/GraphQL-API/start_here/)",
+  "main": "app.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nananananate/graphql-workshop.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nananananate/graphql-workshop/issues"
+  },
+  "homepage": "https://github.com/nananananate/graphql-workshop#readme"
+}
